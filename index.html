@@ -16,118 +16,198 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-md navbar-light  ">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="myself"><img src="assets/img/logo.png" alt=""></a>
+    <nav class="navbar navbar-expand-md navbar-light pl-5 pr-3 pt-3 mt-1 mb-5">
+        <div class="container-fluid ">
+            <img  src="assets/img/es-logo1.png" alt="iniziali logo" style="width: 105px;" ></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto ">
-                    <li class="nav-item active ">
-                        <a class="nav-link" href="#">Chi Sono</a>
+                <ul class="navbar-nav ml-auto d-flex page-links">
+                    <li class="nav-item active pr">
+                        <a class="nav-link " href="#introduce">About Me</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#">Skill</a>
+                        <a class="nav-link " href="#skills">Skills</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link" href="#">Contatti</a>
+                        <a class="nav-link" href="#form-content">Contact me</a>
                     </li>
-                    
-                    <li class="nav-item mx-2 my-1 ">
-                        <a href="https://www.instagram.com/eliasanta_/" target="_blank">
-                            <img
-                            src="assets/img/instagram_logo.png"
-                            class="logo-link zoom"
-                            alt="logo Instagram"/>
-                        </a>
-                    </li>
-                    <li class="nav-item mx-2 my-1">
-                        <a  href="https://www.linkedin.com/in/elia-santagiuliana-b10323143"target="_blank">
-                            <img
-                                src="assets/img/Linkedin_logo.png"
+                    <div class="d-flex flex-row justify-content-start">
+                        <li class="nav-item mx-1 my-1 ">
+                            <a href="https://www.instagram.com/eliasanta_/" target="_blank">
+                                <img
+                                src="assets/img/instagram_logo.png"
                                 class="logo-link zoom"
-                                alt="logo linkedin"/>
-                        </a>
-                </li>
-                    <li class="nav-item mx-2 my-1">
-                        <a href="https://github.com/eliasanta" target="_blank">
-                            <img
-                                src="assets/img/GitHub_logo.png"
-                                class="logo-link zoom"
-                                alt="logo GitHub"/>
-                        </a>
-                </li>
+                                alt="logo Instagram"/>
+                            </a>
+                        </li>
+                        <li class="nav-item mx-1 my-1">
+                            <a  href="https://www.linkedin.com/in/elia-santagiuliana-b10323143"target="_blank">
+                                <img
+                                    src="assets/img/Linkedin_logo.png"
+                                    class="logo-link zoom"
+                                    alt="logo linkedin"/>
+                            </a>
+                        </li>
+                        <li class="nav-item mx-1 my-1">
+                            <a href="https://github.com/eliasanta" target="_blank">
+                                <img
+                                    src="assets/img/GitHub_logo.png"
+                                    class="logo-link zoom"
+                                    alt="logo GitHub"/>
+                            </a>
+                        </li>
+                    </div>
                 </ul>
             
             </div>
         </div>
     </nav>
 
-<!--- Introduce section-->
-<div class="introduce">
-    <div class="myself">
-        <h2 >Hello!</h2>
-        <h5>I'm Elia Santagiuliana</h5>
-        <h5>Junior Full Stack Developer</h5>
-
-    </div>
-    <div  >
-       <img class="imagine" src="assets/img/web_developer.png" alt="web developer">
-    </div>
-
-    </div>
+    <!--- Introduce section-->
+    <a name="introduce"></a>
+    <section id="showcase">
+        <div class="container pl-5">
+            <div class="row d-flex">
+                <div class="col-sm-6 d-flex flex-column align-items-start justify-content-center p-left-3">
+                    <h2 class="mb-3">Hello!</h2>
+                    <h5 class="mb-3">I'm <strong style="font-size: 32px;font-style: italic;">Elia Santagiuliana</strong></h5>
+                    <h5 class="mb-3">Junior Full Stack Developer</h5>
+                </div>
+                <div class="col-sm-6 self-justify-content-center">
+                    <img class="image-int-section " src="assets/img/web_developer.png" 
+                     alt="web developer">
+                </div>
+             </div>
+        </div>
+    </section>
+ 
     <!--- Introduce myself -->
-    <div class="description">
-        <h2 class="title">Chi sono</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, repellat aperiam quibusdam excepturi adipisci corrupti earum amet nam nesciunt dolor quidem fugiat voluptas enim beatae, cum vel fuga! Nesciunt, blanditiis?</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum veniam, quibusdam doloremque minus recusandae dolorem, adipisci obcaecati eveniet veritatis sequi eaque, quo id rerum eius voluptatem? Suscipit eligendi impedit nemo!</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse inventore quos explicabo nisi cupiditate ab vitae rem accusantium. Corporis distinctio, dolorum sequi quam culpa ratione veniam molestias explicabo accusamus quis?</p>
+    <div class="description mt-5 ">
+        <h2 class="title">About Me</h2>
+         <div class="story">
+        <p>I'm <strong>Elia Santagiuliana</strong> , I'm 28 and I live in a small city near Vicenza.           
+          I'm Expert in "electronics and telecommunications", during my work carrer I have develop a technical knowledge in Mechanical and Eletronics.</p>
+          <p>I consider myself a courios and intrapendent guy, i like to increase my knowledge reading book and attend courses. One of my best characteristics is perseverance.</p>
+          <p>After some work experiences, last year started my interested in web developing and enrolled in the star2impact course to deepen my knowledge with the goal to turn it into a job.</p>
+          <p>I'm happy to start this new adventure and I'm looking forward to become a <strong>Full Stack Developer junior.</strong></p>
+         </div>
+     </div>
 
-    </div>
-
-<!--- Skill -->
-    <div class="skills-section">
+    <!--- Skill -->
+    <a name="skills"></a>
+    <div class="skills-section mt-5 ">
         <h2 class="title">Skills</h2>
-        <div class="skills">
-        <div>
-            <img class="logo-skills" src="assets/img/html-logo.png" alt="logo html">
+        <div class="skills ">
+        <div class="">
+            <img class="logo-skills m-3 " src="assets/img/html-logo.png" alt="logo html">
          </div>
          <div>
-            <img class="logo-skills"  src="assets/img/css-logo.png" alt="logo css">
+            <img class="logo-skills m-3"  src="assets/img/css-logo.png" alt="logo css">
          </div>
          <div>
-            <img class="logo-skills" src="assets/img/bootstrap-logo.png" alt="logo bootstrap">
+            <img class="logo-skills m-3" src="assets/img/bootstrap-logo.png" alt="logo bootstrap">
          </div>
         </div>
     </div>
 
-<!--- Fixed background -->
+    <!--- Portfolio -->
+    <a name="portfolio"></a>
+    <div class="portfolio">
+        <h2 class="title">Portfolio</h2>
+        <img class="image-portfolio" src="assets/img/work-in-progress.png" alt="work in progress">
 
+    </div>
 
-<!--- Emoji Section -->
-
-  
-<!--- Meet the team -->
-
-
-<!--- Cards -->
-
-
-<!--- Two Column Section -->
-
-
-<!--- Connect -->
-
-
-<!--- Footer -->
-
-
-
-
+    <!--- form -->
+    <a name="form-content"></a>
+    <div class="form-content">
+        <h2 class="title">Contatc me</h2>
+        <div class="col-md-10 col-lg-7">
+            <form id="contact-form" action="" method="post" role="form" class=" contactForm ">
+                <div class="form-row">
+                    <div class="form-group col-md-6 mb-2">
+                        <input type="text" class="form-control" id="nome" name="nome" data-rule="required" data-msg="Enter your name" placeholder="Enter name">
+                        <div class="validation"></div>
+                    </div>
+                    <div class="form-group col-md-6 mb-2">
+                        <input type="tel" class="form-control" id="cellulare" name="cellulare" placeholder="Enter phone">
+                        <div class="validation"></div>
+                    </div>
+                    </div>
+                    <div class="form-group mb-4">
+                        <input type="email" class="form-control" id="email" name="email" data-rule="email" data-msg="invalid email" placeholder="Enter email">
+                        <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="6" id="messaggio" name="messaggio" data-rule="required" data-msg="Please, write something" placeholder="Il tuo messaggio"></textarea>
+                    <div class="validation"></div>
+                </div>
+                <div class="d-flex justify-content-center ">
+                <button type="submit" class="btn btn-one send w-150 " >Send</button>
+                </div>
+            </form>    
+        </div>
+    </div>
+    <!--- footer -->
+    <footer class="text-center text-white"  >
+        <!-- Grid container -->
+        <div class="container-fluid pt-4 d-flex flex-wrap justify-content-around align-items-center" style="width: 90%;">
+          <!-- Section: Social media -->
+          <section class="mb-3 ">
+            
+            <!-- Instagram -->
+            <a
+              class="logo-size btn btn-link btn-floating btn-lg text-dark m-1 zoom"
+              href="https://www.instagram.com/eliasanta_/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              class="logo-size btn btn-link btn-floating btn-lg text-dark m-1 zoom"
+              href="https://www.linkedin.com/in/elia-santagiuliana-b10323143"
+              role="button"
+              data-mdb-ripple-color="dark"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="logo-size btn btn-link btn-floating btn-lg text-dark m-1 zoom"
+              href="https://github.com/eliasanta"
+              role="button"
+              data-mdb-ripple-color="dark"
+              target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+          <section class="mb-3 " style="font-size:1.2rem">
+            <i class="fas fa-envelope mr-2"></i>
+            <a href="mailto:eliasanta93@gmail.com" >eliasanta93@gmail.com</a>
+          </section>
+          <section class="mb-3 " style="font-size:1.2rem">
+            <i class="fas fa-map-marker-alt"></i>
+            <a href="https://it.wikipedia.org/wiki/Cornedo_Vicentino">Cornedo Vicentino, IT</a>
+          </section>
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);font-size:0.8rem">
+          © 2022 Copyright: Elia Santagiuliana
+    
+        </div>
+        <!-- Copyright -->
+      </footer>
 </body>
 </html>
 

@@ -7,114 +7,68 @@
 
 body{
   padding:0 5%;
+  background-color: #fffefd;
 }
-/* /* /* /*---Media Queries --*/
-
-@media only screen and (max-width: 768px) {
-  .introduce{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 0 10%;
-  
-  }
-  .imagine{
-    height:80%;
-    background-color: antiquewhite;
-  }
-  
-  
-  
-}
-@media only screen and (max-width: 576px) {
-  
-  
-} 
- 
-/*---Firefox Bug Fix --*/
-/* .carousel-item {
-  transition: -webkit-transform 0.5s ease;
-  transition: transform 0.5s ease;
-  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
-  -webkit-backface-visibility: visible;
-  backface-visibility: visible;
-} */
-/*--- Fixed Background Image --*/
-/* figure {
-  position: relative;
-  width: 100%;
-  height: 60%;
-  margin: 0!important;
-}
-.fixed-wrap {
-  clip: rect(0, auto, auto, 0);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-#fixed {
-  background-image: url('img/mac.png');
-  position: fixed;
-  display: block;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center center;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
-  will-change: transform;
-} */
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
     padding: 1rem;
 }
 /* ---CSS--- */
 .logo-link {
-  max-width: 35px;
+  width: 35px;
 }
 .zoom:hover {
   transform: scale(1.05);
   transition: 0.3s;
 }
 .title{
-  margin-bottom: 30px;
-  border-bottom: 2px solid black;
+  font-weight: 650;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #0093DD;
+}
+.page-links{
+  font-size:16px;
 }
 .introduce{
+  font-family: ;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  
+  margin-bottom: 100px;
   
 }
-
-.imagine{
-  height:250px;
+.image-int-section{
+  width:80%;
+  min-width:270px;
+  
+  margin-top:50px;
+}
+.image-portfolio{
+  width:300px;
 }
 
 .description{
-  
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  
   padding: 0 5%;
+  margin-bottom:100px
+}
+.story{
+  font-size: 21px;
+  width: 90%;
+  text-align: left;
 }
 
 .skills-section{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 5%;
 }
 .skills{
   display: flex;
@@ -124,11 +78,62 @@ body{
   
 }
 .logo-skills{
-  width:100px;
-  height:100px;
+  width:120px;
+  height:120px;
 }
-
-
+.portfolio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 5%;
+  margin-top: 130px;
+}
+.border-spacing{
+  border:5px solid black;
+  border-spacing: 60px;
+  border-radius:50%;
+}
+/*--form--*/
+.form-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 5%;
+  margin-top: 150px;
+}
+.btn-one {
+  color: #fff;
+  background-color: #0093DD;
+  border-color: #0093DD;
+  border-radius: 20px;
+  width: 100px;
+}
+.btn-one:hover {
+  color: #fff;
+  background-color: #53b6e7;
+  border-color: #0093DD;
+  border-radius: 20px;
+  width: 100px;
+}
+/* footer */
+footer{
+  background-color: #0093DD;
+  color: black;
+  margin-top: 100px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+a {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+}
+.logo-size{
+font-size:2rem;
+}
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
